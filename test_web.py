@@ -6,4 +6,4 @@ import pytest
 class Tests:
     def test_title(self):
         self.driver.get("https://p.mrsu.ru")
-        assert self.driver.title == "Портфолио - ЭИОС"
+        assert self.driver.title == "Вход - ЭИОС"
